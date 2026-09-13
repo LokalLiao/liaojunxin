@@ -1,0 +1,514 @@
+{
+  "header": {
+    "home": "Home",
+    "projects": "Projects",
+    "faq": "FAQ"
+  },
+  "home": {
+    "greeting": "Hello, I'm",
+    "name": "Liao",
+    "title": "Software Engineer / Mobile & Architecture",
+    "bio": "Specializing in mobile system architecture and clean, maintainable engineering practices.",
+    "skillsTitle": "Core Tech & Skills",
+    "contactBtn": "Get in Touch",
+    "githubBtn": "GitHub Profile"
+  },
+  "resume": {
+    "basicInfo": {
+      "title": "Personal Information",
+      "labels": {
+        "name": "Name",
+        "birth": "Date of Birth",
+        "origin": "Place of Origin",
+        "address": "Current Residence",
+        "station": "Nearest Station",
+        "contact": "Contact"
+      },
+      "data": {
+        "name": "Liao Junxin (リョウ シュンシン)",
+        "birth": "May 7, 1987",
+        "origin": "China",
+        "address": "Ichikawa-shi, Chiba, Japan",
+        "station": "15-min walk from Ichikawa Station (JR Sobu Line)",
+        "email": "liaoassin1987@gmail.com"
+      }
+    },
+    "education": {
+      "title": "Education",
+      "headers": {
+        "year": "Year",
+        "month": "Month",
+        "detail": "School / Major / Status"
+      },
+      "history": [
+        {
+          "year": "2006",
+          "month": "9",
+          "detail": "Jianghan Art Vocational College, Computer Application - Enrolled"
+        },
+        {
+          "year": "2009",
+          "month": "6",
+          "detail": "Jianghan Art Vocational College, Computer Application - Graduated"
+        },
+        {
+          "year": "2020",
+          "month": "9",
+          "detail": "Tianjin University (Distance Education), Computer Science - Enrolled"
+        },
+        {
+          "year": "2023",
+          "month": "7",
+          "detail": "Tianjin University (Distance Education), Computer Science - Graduated (Bachelor of Engineering)"
+        },
+        {
+          "year": "2025",
+          "month": "10",
+          "detail": "Tokyo Sanritsu Academy, Japanese Language Course - Enrolled"
+        },
+        {
+          "year": "2026",
+          "month": "6",
+          "detail": "Tokyo Sanritsu Academy – Withdrew to start employment (Received a job offer from Shintaku Co., Ltd. and obtained the Engineer/Specialist in Humanities/International Services visa)"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Work Experience",
+      "headers": {
+        "year": "Year",
+        "month": "Month",
+        "detail": "Company / Role / Description / Status"
+      },
+      "history": [
+        {
+          "year": "2009",
+          "month": "8",
+          "detail": "Fujian Changting Hongqi Knitwear Factory - Joined",
+          "isDesc": false
+        },
+        {
+          "year": "",
+          "month": "",
+          "detail": "Worked as a production operator, engaged in knitwear manufacturing operations",
+          "isDesc": true
+        },
+        {
+          "year": "2013",
+          "month": "2",
+          "detail": "Fujian Changting Hongqi Knitwear Factory - Resigned",
+          "isDesc": false
+        },
+        {
+          "year": "2013",
+          "month": "3",
+          "detail": "Xiamen Banyouxing Technology Co., Ltd. - Joined",
+          "isDesc": false
+        },
+        {
+          "year": "",
+          "month": "",
+          "detail": "Engaged in in-house Android application development as an Android Engineer",
+          "isDesc": true
+        },
+        {
+          "year": "2016",
+          "month": "3",
+          "detail": "Xiamen Banyouxing Technology Co., Ltd. - Resigned",
+          "isDesc": false
+        },
+        {
+          "year": "2016",
+          "month": "3",
+          "detail": "Zhonghe Shichuang Power Technology Co., Ltd. - Joined",
+          "isDesc": false
+        },
+        {
+          "year": "",
+          "month": "",
+          "detail": "Software Engineer & Project Manager, designed and developed internal business systems",
+          "isDesc": true
+        },
+        {
+          "year": "2024",
+          "month": "3",
+          "detail": "Zhonghe Shichuang Power Technology Co., Ltd. - Resigned",
+          "isDesc": false
+        },
+        {
+          "year": "2024",
+          "month": "4",
+          "detail": "Changting Gameute Technology Co., Ltd. - Joined",
+          "isDesc": false
+        },
+        {
+          "year": "",
+          "month": "",
+          "detail": "Engaged in AI and enterprise system development as a Software Engineer",
+          "isDesc": true
+        },
+        {
+          "year": "2025",
+          "month": "9",
+          "detail": "Changting Gameute Technology Co., Ltd. - Resigned",
+          "isDesc": false
+        },
+        {
+          "year": "2025",
+          "month": "11",
+          "detail": "Aiya Hachimanyama Store - Part-time (Kitchen Staff) started",
+          "isDesc": false
+        },
+        {
+          "year": "2026",
+          "month": "5",
+          "detail": "Aiya Hachimanyama Store - Part-time (Kitchen Staff) resigned",
+          "isDesc": false
+        }
+      ]
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "headers": {
+        "name": "Skill / Domain",
+        "detail": "Experience & Scope of Work"
+      },
+      "items": [
+        {
+          "name": "Java",
+          "detail": "Web application development with Spring Boot, native Android app development (CRUD operations, REST API creation)"
+        },
+        {
+          "name": "Kotlin",
+          "detail": "Android application development (UI design, API integration)"
+        },
+        {
+          "name": "Dart",
+          "detail": "Cross-platform application development with Flutter (UI construction, state management)"
+        },
+        {
+          "name": "JavaScript",
+          "detail": "Frontend development with Vue.js (UI development, API integration)"
+        },
+        {
+          "name": "Python",
+          "detail": "Automation script development, AI model integration & API invocation"
+        },
+        {
+          "name": "Git / SVN",
+          "detail": "Practical experience with version control systems"
+        },
+        {
+          "name": "Hardware",
+          "detail": "Desktop and laptop disassembly, assembly, circuit fault testing and diagnostics"
+        },
+        {
+          "name": "OS & Systems",
+          "detail": "Reinstallation of Windows and Linux OS, environment configuration, system customization and optimization"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Language Proficiency & Certifications",
+      "headers": {
+        "name": "Language",
+        "level": "Proficiency / Certification"
+      },
+      "items": [
+        {
+          "name": "Chinese",
+          "level": "Native"
+        },
+        {
+          "name": "Japanese",
+          "level": "Japanese-Language Proficiency Test (JLPT) N2 Passed"
+        },
+        {
+          "name": "English",
+          "level": "CELPIP Score 5 Passed (Canadian Government Certified English Test)"
+        }
+      ]
+    },
+    "selfPr": {
+      "title": "Self-PR & Career Objective",
+      "content": "I am seeking a long-term career in Japan, committed to delivering sustainable value through solid software engineering.\nWith rich practical experience in mobile app development using Java, Kotlin, and Flutter, I also leverage Spring Boot and Python for business systems, automation, and AI integration. I possess strong self-direction to drive projects from 0 to 1 through to completion.\nFurthermore, my background includes on-site hardware setup, maintenance, and technical client support in China, giving me practical, versatile troubleshooting skills. I actively research cutting-edge AI technologies to solve real-world engineering challenges."
+    }
+  },
+  "projects": {
+    "pageTitle": "Projects & Development Experience",
+    "pageSubtitle": "Chronological list (newest first) of major enterprise and research projects.",
+    "labels": {
+      "period": "Period",
+      "roles": "Roles & Responsibilities",
+      "overview": "Overview",
+      "architectureImg": "Architecture & Preview",
+      "skillsSection": "Key Technical Implementations",
+      "environment": "Environment & Technologies",
+      "demoLink": "Technical Reference Demo (No confidential info)"
+    },
+    "list": [
+      {
+        "id": "iot-device-control",
+        "title": "Smart IoT Device Control System",
+        "period": "Apr 2024 – Sep 2025",
+        "image": "project_iot_dev.jpg",
+        "desc": "Development project for a unified control and monitoring system managing multiple IoT devices. Covered end-to-end responsibilities including state management, REST API integration, bidirectional communication, on-site setup, and maintenance.",
+        "roles": [
+          "Software Engineer",
+          "Smart Device Control System Developer",
+          "On-site Installation & Maintenance Engineer"
+        ],
+        "skills": [
+          "Developed cross-platform control application using Flutter with clean UI and real-time state management.",
+          "Implemented HTTP/REST API communication between mobile client and backend server for command transmission and data sync.",
+          "Designed backend API using Python (FastAPI) for command parsing, data transformation, and device state management.",
+          "Engineered low-latency TCP/Socket communication between server and IoT devices for bidirectional control and heartbeat monitoring."
+        ],
+        "environment": {
+          "os": ["Windows", "Android"],
+          "languages": ["Flutter (Dart)", "Python"],
+          "tools": ["GitHub", "VS Code"]
+        },
+        "demo": {
+          "title": "View GitHub Repository",
+          "url": "https://github.com/LiaoJinze1987/iot_dev_ctrl"
+        }
+      },
+      {
+        "id": "ai-digital-human",
+        "title": "AI Digital Human Interactive Dialogue System",
+        "period": "Apr 2024 – Sep 2025",
+        "image": "project_ai_digital.jpg",
+        "desc": "An interactive AI digital human system developed for large-screen Android terminals. Real-time user speech is converted into text, enriched via RAG enterprise knowledge retrieval, processed by DeepSeek LLM, and rendered by Fengping Smart's proprietary digital human avatar with synchronized voice and facial expressions.",
+        "roles": [
+          "Software Engineer",
+          "System Design & Backend API Developer",
+          "AI & Digital Human Avatar Integration Engineer"
+        ],
+        "skills": [
+          "Developed Android interactive application for large-screen hardware, integrating custom digital human avatar UI and interaction workflow.",
+          "Integrated STT (Speech-to-Text) capabilities to convert user voice interactions into real-time text queries sent to the backend server.",
+          "Engineered a high-concurrency, low-latency backend API service using Python (FastAPI).",
+          "Implemented RAG (Retrieval-Augmented Generation) pipeline for fast private domain information retrieval and context augmentation.",
+          "Integrated DeepSeek LLM for prompt engineering and context-aware intelligent response generation.",
+          "Connected with Fengping Smart's proprietary trained digital human avatar API for synchronized text-to-speech (TTS) and expressive lip-synced voice broadcast."
+        ],
+        "environment": {
+          "os": ["Android", "Linux / Windows Server"],
+          "languages": ["Python (FastAPI)", "Java / Kotlin"],
+          "tools": ["DeepSeek API", "RAG / Vector DB", "STT / TTS", "GitHub"]
+        }
+      },
+      {
+        "id": "internal-ai-assistant",
+        "title": "Internal AI Enterprise Assistant (AI Agent & Automation)",
+        "period": "Apr 2024 – Sep 2025",
+        "image": "project_ai_assistant.jpg",
+        "desc": "A research and Proof-of-Concept (PoC) project for an internal AI workflow assistant and intelligent Agent system. Natural language instructions submitted via Web and Mobile clients are parsed by a Python FastAPI server, leveraging DeepSeek LLM and RAG to automate tasks such as local file retrieval, email analysis, and vendor quotation comparison.",
+        "roles": [
+          "Software Engineer",
+          "Frontend (Web & Mobile) Designer & Developer",
+          "AI Agent & FastAPI Backend Architect"
+        ],
+        "skills": [
+          "Developed multi-platform natural language conversational interfaces using Flutter (Mobile) and Vue 3 (Web).",
+          "Engineered asynchronous high-efficiency REST APIs and task orchestration engine using Python (FastAPI).",
+          "Integrated DeepSeek LLM for Natural Language Understanding (NLU / Intent Parsing) and automated task execution planning.",
+          "Implemented autonomous AI Agent workflows: dynamic local file search and automated email delivery to target recipients.",
+          "Built intelligent email content analysis, extraction, and automated cross-vendor quotation comparison and differentiation tools.",
+          "Deployed RAG (Retrieval-Augmented Generation) pipeline for secure private enterprise knowledge and document retrieval."
+        ],
+        "environment": {
+          "os": ["Windows", "Linux", "Android / iOS"],
+          "languages": [
+            "Python (FastAPI)",
+            "JavaScript / Vue 3",
+            "Dart (Flutter)"
+          ],
+          "tools": [
+            "DeepSeek API",
+            "RAG / Vector DB",
+            "SMTP / Email API",
+            "Git / GitHub"
+          ]
+        }
+      },
+      {
+        "id": "repair-management-platform",
+        "title": "Repair & Maintenance Request Management Platform",
+        "period": "Jan 2023 – Sep 2025",
+        "image": "project_repair_platform.jpg",
+        "desc": "An end-to-end equipment repair and maintenance tracking platform, initiated as an independent project and later enhanced and deployed in enterprise production. Features a web client for repair requests, an admin dashboard for ticket management, and a dedicated mobile app for field maintenance technicians.",
+        "roles": [
+          "Full-stack Developer",
+          "Web Frontend (Vue 3) Developer",
+          "Mobile App (Flutter) Developer",
+          "Backend (Spring Boot) & Database Architect"
+        ],
+        "skills": [
+          "Developed user repair request interface and administrative ticket dashboard using Vue 3.",
+          "Built dedicated field technician mobile app using Flutter (order list inspection, status updates, maintenance logging).",
+          "Engineered robust backend RESTful APIs, transaction management, and business logic using Spring Boot (Java).",
+          "Designed database schemas for repair tickets, maintenance status lifecycles, and role-based access control with MySQL.",
+          "Integrated real-time data synchronization between web dashboards, mobile clients, and backend server via REST APIs."
+        ],
+        "environment": {
+          "os": ["Windows", "Linux", "Android / iOS"],
+          "languages": [
+            "Java (Spring Boot)",
+            "JavaScript / Vue 3",
+            "Dart (Flutter)",
+            "SQL"
+          ],
+          "tools": ["MySQL", "IntelliJ IDEA", "VS Code", "Git / GitHub"]
+        }
+      },
+      {
+        "id": "student-management-platform",
+        "title": "Student & Academic Management Platform",
+        "period": "Jan 2023 – Mar 2024",
+        "image": "project_student_platform.jpg",
+        "desc": "A comprehensive student and academic administration platform tailored for educational institutions. Designed with strict Role-Based Access Control (RBAC) across three distinct user roles (Teacher, Student, Admin), supporting grade submission/inquiry, attendance tracking, school-wide notifications, and master data management.",
+        "roles": [
+          "Full-stack Developer",
+          "Web Frontend (Vue 3) Developer",
+          "Backend (Spring Boot) API & RBAC Architect"
+        ],
+        "skills": [
+          "Developed role-based (Teacher, Student, Administrator) web portal interfaces and responsive layouts using Vue 3.",
+          "Built teacher-facing capabilities: assigned course/curriculum overview, student grading and evaluations, and official announcements inquiry.",
+          "Implemented student-facing features: real-time grade tracking, course enrollment details, and institutional announcement updates.",
+          "Engineered administrator modules: system-wide notification broadcasts, user role and account governance, and institutional master data administration.",
+          "Architected robust Spring Boot RESTful APIs with Role-Based Access Control (RBAC) and reliable data transactions.",
+          "Executed frontend-backend data integration, bug investigations, legacy code refactoring, and comprehensive verification testing."
+        ],
+        "environment": {
+          "os": ["Windows", "Linux"],
+          "languages": ["Java (Spring Boot)", "JavaScript / Vue 3", "SQL"],
+          "tools": ["MySQL", "IntelliJ IDEA", "VS Code", "Git / GitHub"]
+        },
+        "demo": {
+          "title": "View GitHub Repository (Showcase)",
+          "url": "https://github.com/LiaoJinze1987/school-management-system-showcase"
+        }
+      },
+      {
+        "id": "power-grid-general-system",
+        "title": "State Grid Power Infrastructure Systems & Terminal Browser Development",
+        "period": "Mar 2016 – Mar 2024",
+        "image": "project_power_grid.jpg",
+        "desc": "A multi-year engineering and maintenance engagement for State Grid (electric power utility) enterprise systems and dedicated terminal browser applications. Handled end-to-end development and Project Management (PM) across mission-critical domains including power equipment inspection, emergency vehicle dispatching, smart apartment management, and emergency broadcast systems.",
+        "roles": [
+          "Software Engineer",
+          "Project Manager (PM Responsibilities)",
+          "Mobile & Frontend Lead Developer",
+          "IoT Integration & Backend Support Engineer"
+        ],
+        "skills": [
+          "Developed dedicated Android native inspection applications and customized terminal browser features using Java and Kotlin.",
+          "Built cross-platform mobile interfaces, state management, and real-time data synchronization using Flutter.",
+          "Integrated Baidu Map SDK and AMap SDK to enable precise geolocation, inspection route tracking, and dispatch navigation.",
+          "Developed administrative web portals (inspection logging, fleet management, emergency broadcasting) using HTML, CSS, JavaScript, and Vue.js.",
+          "Supported backend REST API engineering and core business data processing logic using Spring Boot (Java).",
+          "Assisted in developing Python-based communication servers for smart apartment IoT device monitoring and control.",
+          "Managed team codebase versioning, branch strategies, and production releases using Git and SVN."
+        ],
+        "environment": {
+          "os": ["Android", "Windows", "Linux"],
+          "languages": [
+            "Java / Kotlin",
+            "Dart (Flutter)",
+            "JavaScript / Vue.js",
+            "Python",
+            "SQL"
+          ],
+          "tools": [
+            "Spring Boot",
+            "Baidu Map SDK",
+            "AMap SDK",
+            "Git / SVN",
+            "Android Studio",
+            "IntelliJ IDEA"
+          ]
+        }
+      },
+      {
+        "id": "in-house-ec-android-app",
+        "title": "In-house E-Commerce Native Android Apps (Consumer & Merchant)",
+        "period": "Mar 2013 – Mar 2016",
+        "image": "project_ec_app.jpg",
+        "desc": "Development and maintenance of native Android applications for an in-house e-commerce platform. Architected and implemented both the Consumer-facing Shopping App (B2C) and the Merchant Store Management App (B2B), establishing an end-to-end e-commerce operational workflow.",
+        "roles": [
+          "Software Engineer (Android App Developer)",
+          "Native App UI/UX & Architectural Implementation",
+          "Network & Data Persistence Layer Engineer"
+        ],
+        "skills": [
+          "Developed consumer-facing shopping app (Java/Kotlin): product catalog browsing, cart operations, checkout/payment integration, and order review/rating workflows.",
+          "Engineered merchant store management app: product publication (descriptions, assets, pricing), promotional discount management, real-time order tracking/fulfillment, and customer feedback management.",
+          "Integrated OkHttp/Retrofit for robust RESTful API network communications, JSON serialization/deserialization, and intelligent network response caching.",
+          "Implemented local data persistence and offline caching utilizing SQLite/Room and SharedPreferences for user sessions and cached product data.",
+          "Optimized multithreading and asynchronous memory handling to ensure smooth, high-performance scrolling across complex image-heavy product feeds."
+        ],
+        "environment": {
+          "os": ["Android"],
+          "languages": ["Java", "Kotlin", "SQL"],
+          "tools": ["Android Studio", "SQLite", "OkHttp", "Git / SVN"]
+        },
+        "demo": {
+          "title": "View GitHub Repository (Showcase)",
+          "url": "https://github.com/LiaoJinze1987/bnx_app_server"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "pageTitle": "Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "q": "Why do you want to work and build your career in Japan?",
+        "a": "I wanted to pursue new professional challenges and opportunities as a software engineer, while providing a safer, nurturing educational environment for my daughter's long-term growth. I am committed to establishing a stable, long-term life and career in Japan."
+      },
+      {
+        "q": "When did you arrive in Japan?",
+        "a": "I arrived in Tokyo, Japan in October 2025 as an international Japanese language student."
+      },
+      {
+        "q": "Do you have work experience in Japan?",
+        "a": "As of September 2026, I do not yet have local IT engineering experience in Japan. However, I have worked alongside local Japanese staff in a Japanese restaurant kitchen (Aiya Hachimanyama Store), developing practical Japanese workplace communication and teamwork skills."
+      },
+      {
+        "q": "What prompted your decision to move to Japan?",
+        "a": "Between October 2024 and April 2025, I was dispatched to Canada on a business assignment by my previous company. Experiencing different cultures and perspectives prompted me to deeply consider the future for both my career and my family.\nDuring our time abroad, we realized that an Asian cultural atmosphere, high public safety, and excellent education were better suited for our child's upbringing compared to Western environments. This led directly to my decision to relocate and pursue opportunities in Japan."
+      },
+      {
+        "q": "Why did you build this personal portfolio and resume website?",
+        "a": "To help companies understand my technical background, capabilities, and personality efficiently—saving valuable time for both sides. I also prefer focusing our interview conversations on meaningful engineering challenges rather than repeating standard baseline questions."
+      },
+      {
+        "q": "What is your level of Japanese proficiency?",
+        "a": "I passed the JLPT N2 exam held on July 5, 2026.\nSince I was young, I have enjoyed watching Japanese anime and TV dramas, which gave me a natural feel for the language.\nSince arriving in Japan, I have independently handled matters at city hall, banks, and my part-time job at a Japanese restaurant. Therefore, I can carry out daily communication with Japanese people without issues."
+      },
+      {
+        "q": "What is your acceptable commute time?",
+        "a": "Within 1 hour one-way, combining walking and train/subway."
+      },
+      {
+        "q": "Are you open to relocating or working in other cities?",
+        "a": "Yes, as long as the role and position are a good fit."
+      },
+      {
+        "q": "What kind of person is Liao?",
+        "a": "(1) Honest: I prefer telling the truth directly rather than making up excuses to cover a lie.\n(2) Responsible: I always take full responsibility for the projects I am in charge of.\n(3) Down-to-earth: Being straightforward does not mean I am naive; I can sense both good and bad intentions from people.\n(4) Team-minded: I consider others' feelings, but I will not tolerate purely selfish behavior."
+      },
+      {
+        "q": "What are your future plans in Japan?",
+        "a": "Once I achieve a stable life and career in Japan, I definitely want to bring my daughter over.\nWhile advancing my skills in software and AI, I plan to learn more about hardware and develop toward integrating software and hardware together."
+      },
+      {
+        "q": "What are your personal hobbies and interests?",
+        "a": "・History (World War History) & Mythology (World Mythologies)\n・Football / Soccer (Cristiano Ronaldo, Gabriel Batistuta)\n・Gaming (Solid Snake, Big Boss)"
+      }
+    ]
+  }
+}

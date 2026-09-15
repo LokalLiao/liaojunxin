@@ -510,5 +510,12 @@
         "a": "・History (World War History) & Mythology (World Mythologies)\n・Football / Soccer (Cristiano Ronaldo, Gabriel Batistuta)\n・Gaming (Solid Snake, Big Boss)"
       }
     ]
+  },
+  "downloads": {
+    "title": "Document Downloads",
+    "hint": "Download original files (Excel / Word) for recruiting review.",
+    "resume": "Resume (Excel)",
+    "workHistory": "Work History (Word)",
+    "skillSheet": "Skill Sheet (Excel)"
   }
 }

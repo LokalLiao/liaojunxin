@@ -1,6 +1,6 @@
 <template>
   <div class="resume-sheet">
-    <!-- 1. 基本情报 -->
+    <!-- 1. 基本情報 -->
     <section class="doc-section">
       <h2 class="section-title">{{ t('resume.basicInfo.title') }}</h2>
       <table class="word-table">
@@ -35,7 +35,7 @@
       </table>
     </section>
 
-    <!-- 2. 学历信息 -->
+    <!-- 2. 学歴 -->
     <section class="doc-section">
       <h2 class="section-title">{{ t('resume.education.title') }}</h2>
       <table class="word-table list-table">
@@ -56,7 +56,7 @@
       </table>
     </section>
 
-    <!-- 3. 工作经历（職歴） -->
+    <!-- 3. 職歴 -->
     <section class="doc-section">
       <h2 class="section-title">{{ t('resume.experience.title') }}</h2>
       <table class="word-table list-table">
@@ -83,7 +83,7 @@
       </table>
     </section>
 
-    <!-- 4. 保有技能 -->
+    <!-- 4. 保有スキル -->
     <section class="doc-section">
       <h2 class="section-title">{{ t('resume.skills.title') }}</h2>
       <table class="word-table skill-table">
@@ -102,7 +102,7 @@
       </table>
     </section>
 
-    <!-- 5. 语学能力（語学力） -->
+    <!-- 5. 語学力 -->
     <section class="doc-section">
       <h2 class="section-title">{{ t('resume.languages.title') }}</h2>
       <table class="word-table skill-table">
@@ -128,6 +128,23 @@
         <p>{{ t('resume.selfPr.content') }}</p>
       </div>
     </section>
+
+    <!-- 7. 各種書類ダウンロード（与上面完全一致的标准主模块） -->
+    <section class="doc-section">
+      <h2 class="section-title">{{ t('downloads.title') }}</h2>
+      <p class="download-hint-text">{{ t('downloads.hint') }}</p>
+      <div class="download-btn-group">
+        <a :href="`${baseUrl}docs/resume_liaojunxin.xlsx`" download="履歴書.xlsx" class="download-btn btn-excel">
+          <span>{{ t('downloads.resume') }}</span>
+        </a>
+        <a :href="`${baseUrl}docs/work_history.docx`" download="職務経歴書.docx" class="download-btn btn-word">
+          <span>{{ t('downloads.workHistory') }}</span>
+        </a>
+        <a :href="`${baseUrl}docs/skillsheet_liao.xlsx`" download="スキルシート.xlsx" class="download-btn btn-excel">
+          <span>{{ t('downloads.skillSheet') }}</span>
+        </a>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -135,6 +152,7 @@
 import { useI18n } from 'vue-i18n'
 
 const { t, tm, rt } = useI18n()
+const baseUrl = import.meta.env.BASE_URL
 </script>
 
 <style scoped>
@@ -286,5 +304,59 @@ const { t, tm, rt } = useI18n()
   color: #333333;
   font-size: 14px;
   white-space: pre-line;
+}
+
+/* 下载专区提示文字 */
+.download-hint-text {
+  margin: 0;
+  color: #555555;
+  font-size: 13.5px;
+}
+
+/* 彩色药丸下载按钮容器 */
+.download-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  border-radius: 6px;
+  font-size: 13.5px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.btn-excel {
+  background-color: #ecfdf5;
+  color: #065f46;
+  border-color: #a7f3d0;
+}
+
+.btn-excel:hover {
+  background-color: #d1fae5;
+  border-color: #34d399;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.15);
+}
+
+.btn-word {
+  background-color: #eff6ff;
+  color: #1e40af;
+  border-color: #bfdbfe;
+}
+
+.btn-word:hover {
+  background-color: #dbeafe;
+  border-color: #60a5fa;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(59, 130, 246, 0.15);
 }
 </style>
